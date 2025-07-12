@@ -1,0 +1,14 @@
+<div class="container mt-4 mb-4">
+    <div class="progress">
+        <div 
+            title="percentual"
+            class="progress-bar progress-bar-striped" 
+            role="progressbar" 
+            [style.width.%]="percentual"
+            aria-valuemin="0" 
+            aria-valuemax="100"
+            [attr.aria-valuenow]="percentual">
+            {{ percentual | number:'1.0-0' }}%
+        </div>
+    </div>
+</div>

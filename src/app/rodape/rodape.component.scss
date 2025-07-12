@@ -1,0 +1,9 @@
+$min: 14px;
+$ideal: 1.9vw;
+$max: 2rem;
+section {
+  div {
+    height: 5vh;
+    font-size: clamp(#{$min}, #{$ideal}, #{$max});
+  }
+}
