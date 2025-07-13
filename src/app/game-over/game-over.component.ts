@@ -24,6 +24,6 @@ export class GameOverComponent implements OnInit, OnDestroy {
 
   reiniciar() {
     this.gameService.setGameOver(false);
-    this.router.navigate(['home']);
+    this.router.navigate(['']);
   }
 }

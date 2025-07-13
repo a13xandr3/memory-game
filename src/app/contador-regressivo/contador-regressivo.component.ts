@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
 })
 export class ContadorRegressivoComponent implements OnInit, OnDestroy {
 
-  totalSegundos = 5500;
+  totalSegundos = 60000;
   segundosRestantes = this.totalSegundos;
   percentual = 100;
 
