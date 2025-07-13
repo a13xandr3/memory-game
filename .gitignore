@@ -1,1 +1,41 @@
-node_modules
+# node_modules: nunca devem ir pro repositório
+node_modules/
+
+# diretórios de build do Angular
+dist/
+out-tsc/
+
+# arquivos temporários de logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# arquivos do editor VSCode
+.vscode/
+
+# arquivos do JetBrains (WebStorm, IntelliJ)
+.idea/
+*.iml
+
+# arquivos temporários e de cache
+tmp/
+temp/
+.cache/
+.angular/
+
+# arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# arquivos do ambiente de produção que não devem ser versionados
+.env
+.env.*.local
+
+# coverage gerado por testes
+coverage/
+
+# pacotes bloqueados ou travados
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
