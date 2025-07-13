@@ -1,7 +1,9 @@
-<section id="corpo" class="Tam">
-    <div class="row">
-        <div class="" *ngFor="let img of modoFacil">
-            <img id="x" [src]="urlImage + img + '.jpg'" title="x" />
+<section id="corpo" 
+         class="container Tam">
+    <div>
+        <img id="x" 
+             *ngFor="let img of modoFacil"    
+             [src]="urlImage + img" 
+             title="x" />
         </div>
-    </div>
 </section>
